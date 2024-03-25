@@ -1,0 +1,13 @@
+import 'conexion_temperatura_model.dart';
+
+class ConexionTemperaturaResponseModel {
+  final String message;
+  final bool status;
+  final List<ConexionTemperaturaModel> conexionTemperaturaData;
+
+  ConexionTemperaturaResponseModel({
+    required this.message,
+    required this.status,
+    required this.conexionTemperaturaData,
+  });
+}
